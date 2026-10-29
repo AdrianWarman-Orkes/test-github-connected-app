@@ -5,6 +5,9 @@
       branches:
         - 'update-*'
 
+  permissions:
+    contents: write
+
   jobs:
     format:
       runs-on: ubuntu-latest
